@@ -42,6 +42,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="leftContainerViewLayoutConstraintTralingToEdge" destination="JO1-It-YEc" id="8W5-LL-oyA"/>
                         <outlet property="leftsideContainerView" destination="YkC-MU-lHO" id="6oB-1o-bkr"/>
                         <outlet property="masterContainerView" destination="G9d-U9-s6J" id="t5p-nA-FZX"/>
                     </connections>

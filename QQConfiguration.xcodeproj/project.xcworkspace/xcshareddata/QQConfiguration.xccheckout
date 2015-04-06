@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F98494A6-228B-4A5A-9571-DAAB0C9DA5D9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QQConfiguration</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>898FBC6C9793A51F7DD829D7A0940DA0C0D1F9B4</key>
+		<string>https://github.com/shinept/QQConfiguration.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QQConfiguration.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>898FBC6C9793A51F7DD829D7A0940DA0C0D1F9B4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shinept/QQConfiguration.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>898FBC6C9793A51F7DD829D7A0940DA0C0D1F9B4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>898FBC6C9793A51F7DD829D7A0940DA0C0D1F9B4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QQConfiguration</string>
+		</dict>
+	</array>
+</dict>
+</plist>

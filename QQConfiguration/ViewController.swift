@@ -21,8 +21,10 @@ class ViewController: UIViewController , MasterViewControllerDelegate{
     
     var leftContainerViewShowed = false
     
+    @IBOutlet weak var leftContainerViewLayoutConstraintTralingToEdge: NSLayoutConstraint!
+    
     let leftsideContainerViewOffsetX = -220 * ZDScreenFactorWidth
-    let masterContainerViewOffsetX = ZDScreenWidth - 75 * ZDScreenFactorWidth
+    let masterContainerViewOffsetX = 305 * ZDScreenFactorWidth
     
     //左视图出现需要超过的拖动的距离
     let paddingSpaceToLeftEdge = 80 * ZDScreenFactorWidth
@@ -68,6 +70,8 @@ class ViewController: UIViewController , MasterViewControllerDelegate{
     }
     
     func initialyConfiguration() {
+        
+        leftContainerViewLayoutConstraintTralingToEdge.constant = 80 * ZDScreenFactorWidth
         //5
         view.layoutIfNeeded()
         
