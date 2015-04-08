@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5700B05C1AD5B3A40088F26E /* LeftEdgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5700B05B1AD5B3A40088F26E /* LeftEdgeViewController.swift */; };
 		CE19AB721ACE2CE300A221EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19AB711ACE2CE300A221EC /* AppDelegate.swift */; };
 		CE19AB741ACE2CE300A221EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19AB731ACE2CE300A221EC /* ViewController.swift */; };
 		CE19AB771ACE2CE300A221EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE19AB751ACE2CE300A221EC /* Main.storyboard */; };
 		CE19AB791ACE2CE300A221EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE19AB781ACE2CE300A221EC /* Images.xcassets */; };
 		CE19AB7C1ACE2CE300A221EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE19AB7A1ACE2CE300A221EC /* LaunchScreen.xib */; };
 		CE19AB881ACE2CE300A221EC /* QQConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19AB871ACE2CE300A221EC /* QQConfigurationTests.swift */; };
-		CE19AB921ACE49B900A221EC /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19AB911ACE49B900A221EC /* MasterViewController.swift */; };
-		CE19AB941ACE49C400A221EC /* LeftsideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19AB931ACE49C400A221EC /* LeftsideViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5700B05B1AD5B3A40088F26E /* LeftEdgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftEdgeViewController.swift; sourceTree = "<group>"; };
 		CE19AB6C1ACE2CE300A221EC /* QQConfiguration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQConfiguration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE19AB701ACE2CE300A221EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE19AB711ACE2CE300A221EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,8 +38,6 @@
 		CE19AB811ACE2CE300A221EC /* QQConfigurationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQConfigurationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE19AB861ACE2CE300A221EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE19AB871ACE2CE300A221EC /* QQConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQConfigurationTests.swift; sourceTree = "<group>"; };
-		CE19AB911ACE49B900A221EC /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		CE19AB931ACE49C400A221EC /* LeftsideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftsideViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +81,7 @@
 			children = (
 				CE19AB711ACE2CE300A221EC /* AppDelegate.swift */,
 				CE19AB731ACE2CE300A221EC /* ViewController.swift */,
-				CE19AB911ACE49B900A221EC /* MasterViewController.swift */,
-				CE19AB931ACE49C400A221EC /* LeftsideViewController.swift */,
+				5700B05B1AD5B3A40088F26E /* LeftEdgeViewController.swift */,
 				CE19AB751ACE2CE300A221EC /* Main.storyboard */,
 				CE19AB781ACE2CE300A221EC /* Images.xcassets */,
 				CE19AB7A1ACE2CE300A221EC /* LaunchScreen.xib */,
@@ -220,8 +217,7 @@
 			files = (
 				CE19AB741ACE2CE300A221EC /* ViewController.swift in Sources */,
 				CE19AB721ACE2CE300A221EC /* AppDelegate.swift in Sources */,
-				CE19AB941ACE49C400A221EC /* LeftsideViewController.swift in Sources */,
-				CE19AB921ACE49B900A221EC /* MasterViewController.swift in Sources */,
+				5700B05C1AD5B3A40088F26E /* LeftEdgeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +409,7 @@
 				CE19AB8D1ACE2CE300A221EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE19AB8E1ACE2CE300A221EC /* Build configuration list for PBXNativeTarget "QQConfigurationTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +418,7 @@
 				CE19AB901ACE2CE300A221EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

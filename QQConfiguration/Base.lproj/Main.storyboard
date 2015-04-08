@@ -1,118 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="G4c-cw-T3h">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="Kqu-Lh-dzQ">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="QQConfiguration" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="G4c-cw-T3h" customClass="ViewController" customModule="QQConfiguration" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="HMT-3D-tcd"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Nr-aJ-7KF"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YkC-MU-lHO">
-                                <rect key="frame" x="0.0" y="0.0" width="520" height="600"/>
-                                <connections>
-                                    <segue destination="C6K-Sh-WXM" kind="embed" id="P2d-vl-8Qc"/>
-                                </connections>
-                            </containerView>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G9d-U9-s6J">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <connections>
-                                    <segue destination="Ihi-D0-bBU" kind="embed" id="PEa-Rb-eqO"/>
-                                </connections>
-                            </containerView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="YkC-MU-lHO" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Aem-Jo-m6j"/>
-                            <constraint firstAttribute="trailing" secondItem="YkC-MU-lHO" secondAttribute="trailing" constant="80" id="JO1-It-YEc"/>
-                            <constraint firstItem="G9d-U9-s6J" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="ObI-pa-WbK"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="G9d-U9-s6J" secondAttribute="bottom" id="WFi-ge-q19"/>
-                            <constraint firstItem="G9d-U9-s6J" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="Y1F-16-Bml"/>
-                            <constraint firstAttribute="trailing" secondItem="G9d-U9-s6J" secondAttribute="trailing" id="mP5-oC-Gjj"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="YkC-MU-lHO" secondAttribute="bottom" id="rXR-Yo-Iyr"/>
-                            <constraint firstItem="YkC-MU-lHO" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="tXE-Il-JBk"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="leftContainerViewLayoutConstraintTralingToEdge" destination="JO1-It-YEc" id="8W5-LL-oyA"/>
-                        <outlet property="leftsideContainerView" destination="YkC-MU-lHO" id="6oB-1o-bkr"/>
-                        <outlet property="masterContainerView" destination="G9d-U9-s6J" id="t5p-nA-FZX"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="290" y="490"/>
-        </scene>
-        <!--MasterViewController-->
-        <scene sceneID="08e-ky-fSR">
-            <objects>
-                <viewController title="MasterViewController" automaticallyAdjustsScrollViewInsets="NO" id="rzA-3J-FPm" customClass="MasterViewController" customModule="QQConfiguration" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="GDg-yk-6MX"/>
-                        <viewControllerLayoutGuide type="bottom" id="1xj-g8-hX5"/>
-                    </layoutGuides>
-                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="AJj-iw-JRl">
+                    <view key="view" contentMode="scaleToFill" id="FOa-Lv-5Ta">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.5064831987089029" green="0.89685335226045337" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="TZq-dN-8gK">
-                        <barButtonItem key="leftBarButtonItem" title="show" id="raI-MA-Scx">
-                            <connections>
-                                <action selector="respondsToShowButton:" destination="rzA-3J-FPm" id="UKH-ps-lE1"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ONW-Ra-0f2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XDY-Hx-wnv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="520" y="1314"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="nV1-Xx-4dY">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ihi-D0-bBU" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hzS-QE-3TM">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="rzA-3J-FPm" kind="relationship" relationship="rootViewController" id="JDd-7f-Gk1"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RXh-lZ-bKo" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="995" y="387"/>
-        </scene>
-        <!--LeftsideViewController-->
-        <scene sceneID="3t9-9d-eeJ">
-            <objects>
-                <viewController title="LeftsideViewController" automaticallyAdjustsScrollViewInsets="NO" id="C6K-Sh-WXM" customClass="LeftsideViewController" customModule="QQConfiguration" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="CWc-RP-MCp"/>
-                        <viewControllerLayoutGuide type="bottom" id="pe2-KO-jv9"/>
-                    </layoutGuides>
-                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="lRJ-4N-lXg">
-                        <rect key="frame" x="0.0" y="0.0" width="520" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.51611923729999998" green="1" blue="0.50106078860000003" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <toolbarItems/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qPY-EW-7Yh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-325" y="1046"/>
+            <point key="canvasLocation" x="1735" y="1532"/>
         </scene>
     </scenes>
 </document>
