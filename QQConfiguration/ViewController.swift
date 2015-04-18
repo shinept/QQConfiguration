@@ -100,14 +100,14 @@ class ViewController: UIViewController , MasterViewControllerDelegate{
     
     //3
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let vc = segue.destinationViewController as UIViewController
+        let vc = segue.destinationViewController as! UIViewController
         
         if vc.isKindOfClass(UINavigationController) {
-            let naviVC = vc as UINavigationController
+            let naviVC = vc as! UINavigationController
             let topVC = naviVC.topViewController
             
             if topVC.isKindOfClass(MasterViewController) {
-                let masterVC = topVC as MasterViewController
+                let masterVC = topVC as! MasterViewController
                 masterVC.delegate = self
             }
         }
